@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            background-color: aqua;
+        } */
+        #div1{
+            background-color: red;
+        }
+        #div2{
+            background-color: blue;
+        }
+       
+        .nap{
+            background-color: burlywood;
+        }
+        .demo{
+            background-color: darkmagenta;
+        }
+        div>p{
+            background-color: tomato;
+        }
+        div + p{
+            background-color: brown;
+        }
+        div ~ p{
+            background-color: seagreen;
+        }
+        button:hover{
+           background-color: aquamarine;
+           color: blueviolet;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: crimson;
+        }
+        a:hover{
+            color: midnightblue;
+        }
+        a:active{
+            color: darkgoldenrod;
+        }
+       
+    </style>
+</head>
+<!-- prefernce id class tagname  -->
+<!-- > parent to child
++ immediate siblings -->
+<!-- ~ all sibling -->
+<body>
+    <div id="div1">this is div 1</div>
+    <div id="div2" class="nap">this is div 2</div>
+    <div id="div3" class="demo nap ">this is div 3</div>
+    <h1>decendant</h1>
+    <p>this is not under div</p>
+    <div>
+        <p>this is under div</p>
+        <p>this is also under div</p>
+        <section>
+            <p>this is under div and section</p>
+        </section>
+        
+    </div>
+    <p>just below div</p>
+    <p>this is not ubder div</p>
+    <button>click me</button>
+    <a href="www.google.com" target="_blank">click the link</a>
+</body>
+</html>
