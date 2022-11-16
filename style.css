@@ -1,0 +1,10 @@
+p::after{
+    content: " this is end-game";
+}
+/* p::before{
+    content: em;
+} */
+p::selection{
+    color: red;
+    background-color: yellow;
+}
